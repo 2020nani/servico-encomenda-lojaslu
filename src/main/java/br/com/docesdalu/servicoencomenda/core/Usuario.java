@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Usuario {
     private Long id;
-
     private String nome;
     private String telefone;
     private String senha;

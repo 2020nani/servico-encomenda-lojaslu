@@ -1,5 +1,6 @@
-package br.com.docesdalu.servicoencomenda.core;
+package br.com.docesdalu.servicoencomenda.application.dto.output;
 
+import br.com.docesdalu.servicoencomenda.core.Pedido;
 import br.com.docesdalu.servicoencomenda.core.enums.Categoria;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,7 +13,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Produto {
+public class ProdutoOutput {
     private Long id;
     private String nome;
     private Categoria categoria;
